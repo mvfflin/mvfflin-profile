@@ -2,26 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+.btn-github {
+  @apply p-1 px-4 text-base md:text-lg bg-neutral-900 cursor-pointer rounded-sm font-medium hover:scale-105 transition-all text-white active:ring-4 active:ring-blue-500 focus:ring-4 focus:ring-blue-500;
+}
+
+.btn-preview {
+  @apply p-1 px-4 text-base md:text-lg bg-blue-700 cursor-pointer rounded-sm font-medium hover:scale-105 transition-all text-white active:ring-4 active:ring-blue-500 focus:ring-4 focus:ring-blue-500;
+}
+
+.project-stacks {
+  @apply text-left text-base flex justify-start md:text-xl gap-4 text-neutral-400 mb-1;
+}
+
+.project-title {
+  @apply text-xl md:text-3xl text-left font-semibold text-white;
+}
+
+.title {
+  @apply text-3xl lg:text-5xl font-semibold;
+}
+
+.line {
+  @apply w-[200px] lg:w-[250px] h-1 my-5 mx-auto border-2 rounded-sm;
+}
+
+.project-description {
+  @apply text-sm text-neutral-500 text-left mb-4;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+hr {
+  @apply dark:border-white border-black;
+}
+
+.project-item {
+  @apply bg-zinc-950 dark:bg-opacity-40 p-5;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: rgb(var(--foreground-rgb)) !important;
 }
