@@ -52,10 +52,10 @@ export const ProjectSection = () => {
             <h1>MongoDB</h1>
           </div>
           <h1 className="project-description">
-            Confess and post it to instagram! or so called "Menfess" by the
-            peeps. A website where you can submit your confession in a form,
-            after that the admin will approve it first from "behind the scene"
-            and it will show up as an instagram post!
+            Confess and post it to instagram! or so called &quot;Menfess&quot;
+            by the peeps. A website where you can submit your confession in a
+            form, after that the admin will approve it first from &quot;behind
+            the scene&quot; and it will show up as an instagram post!
           </h1>
           <div className="grid grid-cols-1 text-lg gap-4">
             <a

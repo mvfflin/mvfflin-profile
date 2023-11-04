@@ -4,10 +4,11 @@ export const AboutSection = () => {
       <h1 className="title">About</h1>
       <hr className="line"></hr>
       <h1 className="text-xl">
-        I'm a 15 year old boy from Indonesia who likes to code for fun and do
-        things that i like. I'm currently studying at SMAN 5 Kota Bekasi. I can
-        make a fullstack website, a minecraft server, a discord bot, and many
-        more. I have some projects and i usually made projects with my friend{" "}
+        I&apos;m a 15 year old boy from Indonesia who likes to code for fun and
+        do things that i like. I&apos;m currently studying at SMAN 5 Kota
+        Bekasi. I can make a fullstack website, a minecraft server, a discord
+        bot, and many more. I have some projects and i usually made projects
+        with my friend{" "}
         <a href="https://github.com/WillisRH" target="_blank">
           <span className="font-semibold hover:underline cursor-pointer">
             WillisRH

@@ -5,8 +5,8 @@ export const ContactSection = () => {
       <hr className="line"></hr>
       <h1 className="text-xl my-2">
         You can contact me to ask me something, maybe you want me to make you a
-        website? I can do that, but i'll look for it first. And join my discord
-        okay? :D
+        website? I can do that, but i&apos;ll look for it first. And join my
+        discord okay? :D
       </h1>
       <h1 className="text-2xl">
         IG : @mvfflinn_ | Discord : mvfflin | Email : mynameisfatihul@gmail.com

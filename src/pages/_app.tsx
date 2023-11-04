@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Mvfflin's Portfolio</title>
+        <title>Mvfflin&apos;s Portfolio</title>
         <meta name="og:title" content="Mvfflin's Portfolio" />
         <meta
           name="og:description"
@@ -18,7 +18,6 @@ export default function App({ Component, pageProps }: AppProps) {
           content="https://cdn.glitch.global/91984866-9109-49e2-baa6-0250c708e319/muffin.png?v=1699029659441"
         />
         <link rel="icon" type="image/x-icon" href="./muffin.png" />
-        <title>mvfflin's profile</title>
       </Head>
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <Component {...pageProps} />

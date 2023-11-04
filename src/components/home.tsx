@@ -1,7 +1,7 @@
 export const HomeSection = () => {
   return (
     <section id="home" className="text-center h-screen pt-48">
-      <h1 className="text-xl">Hi everyone! I'm</h1>
+      <h1 className="text-xl">Hi everyone! I&apos;m</h1>
       <a href="https://github.com/mvfflin" target="_blank">
         <h1 className="text-5xl lg:text-7xl font-bold p-5 my-5 bg-zinc-900 dark:bg-white w-max mx-auto text-white dark:text-blue-900 rounded-md cursor-pointer hover:rotate-6 hover:scale-110 hover:shadow-md dark:hover:shadow-neutral-400 hover:shadow-zinc-800 transition-all dark:hover:text-blue-400">
           Mvfflin

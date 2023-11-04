@@ -35,7 +35,7 @@ export const StacksSection = () => {
         </a>
       </div>
       <h1 className="text-xl dark:text-neutral-400 mt-5">
-        I'll learn more stacks soon
+        I&apos;ll learn more stacks soon
       </h1>
     </section>
   );
