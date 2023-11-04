@@ -26,6 +26,10 @@
   @apply w-[200px] lg:w-[250px] h-1 my-5 mx-auto border-2 rounded-sm;
 }
 
+.ring-link {
+  @apply active:ring-4 active:ring-blue-500 focus:ring-4 focus:ring-blue-500;
+}
+
 .project-description {
   @apply text-sm text-neutral-500 text-left mb-4;
 }
