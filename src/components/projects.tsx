@@ -72,25 +72,29 @@ export const ProjectSection = () => {
             src="./learning-ejs.png"
             className="aspect-auto mx-auto mb-5"
           ></img>
-          <h1 className="project-title">EJS Simple Auth</h1>
+          <h1 className="project-title">Simple Al-Qur&apos;an Website</h1>
           <div className="project-stacks">
-            <h1>EJS (Embedded JS)</h1>
-            <h1>ExpressJS</h1>
-            <h1>MongoDB</h1>
+            <h1>Next JS</h1>
+            <h1>React</h1>
           </div>
           <h1 className="project-description">
-            EJS Simple Auth, simple like its name, i made this website when i
-            just found out javascript language, so i wanna make a little
-            project. I do this with the help of my friend WillisRH. Thank you
-            bro 🤝.
+            Simple Al-Qur&apos;an website, where you can read al-qur&apos;an
+            here with a simple ui, and more update coming soon!
           </h1>
           <div className="grid grid-cols-1 text-lg gap-4">
             <a
-              href="https://github.com/mvfflin/express-autopost-ig"
+              href="https://github.com/mvfflin/simple-quran"
               target="_blank"
               className="btn-github"
             >
               Github
+            </a>
+            <a
+              href="https://alquran.mvffin.my.id"
+              target="_blank"
+              className="btn-preview"
+            >
+              Preview
             </a>
           </div>
         </div>

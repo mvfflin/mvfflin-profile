@@ -14,12 +14,14 @@ export const ContactSection = () => {
       <div className="grid grid-cols-1 lg:flex lg:justify-center mt-12 gap-10">
         <a
           href="https://github.com/mvfflin"
+          target="_blank"
           className="mx-auto lg:m-0 ring-link hover:scale-110 transition-all"
         >
           <img src="./githubwb.png" alt="Github Logo" className="rounded-lg" />
         </a>
         <a
           href="https://discord.gg/QqKAP9AfYA"
+          target="_blank"
           className="mx-auto lg:m-0 ring-link hover:scale-110 transition-all"
         >
           <img
@@ -29,7 +31,8 @@ export const ContactSection = () => {
           />
         </a>
         <a
-          href="https://github.com/mvfflin"
+          href="https://instagram.com/mvfflinn_"
+          target="_blank"
           className="mx-auto lg:m-0 ring-link hover:scale-110 transition-all"
         >
           <img

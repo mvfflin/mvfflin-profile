@@ -7,7 +7,7 @@ export const StacksSection = () => {
         <a href="https://react.dev" target="_blank" className="mx-auto lg:m-0">
           <img
             src="./react.png"
-            alt="Javascript logo"
+            alt="React logo"
             className="w-[100px] h-[100px]"
           />
         </a>
@@ -18,7 +18,7 @@ export const StacksSection = () => {
         >
           <img
             src="./express.webp"
-            alt="Typescript logo"
+            alt="ExpressJS logo"
             className=" h-[100px]"
           />
         </a>
@@ -29,8 +29,16 @@ export const StacksSection = () => {
         >
           <img
             src="./mongodb.png"
-            alt="Javascript logo"
+            alt="MongoDB logo"
             className="w-[100px] h-[100px]"
+          />
+        </a>
+        <a href="https://nextjs.org" target="_blank" className="mx-auto lg:m-0">
+          <img
+            id="nextjs"
+            src="./nextjs.png"
+            alt="NextJS logo"
+            className="w-[100px] h-[100px] object-cover"
           />
         </a>
       </div>
