@@ -68,10 +68,7 @@ export const ProjectSection = () => {
           </div>
         </div>
         <div className="project-item">
-          <img
-            src="./learning-ejs.png"
-            className="aspect-auto mx-auto mb-5"
-          ></img>
+          <img src="./quranweb.png" className="aspect-auto mx-auto mb-5"></img>
           <h1 className="project-title">Simple Al-Qur&apos;an Website</h1>
           <div className="project-stacks">
             <h1>Next JS</h1>
@@ -95,6 +92,46 @@ export const ProjectSection = () => {
               className="btn-preview"
             >
               Preview
+            </a>
+          </div>
+        </div>
+        <div className="project-item">
+          <img src="./rttweb.png" className="aspect-auto mx-auto mb-5"></img>
+          <h1 className="project-title">Rasa Tak Terbuang</h1>
+          <div className="project-stacks">
+            <h1>
+              NextJS {"("}Web{")"},
+            </h1>
+            <h1>
+              Expo App React Native {"("}App{")"}
+            </h1>
+          </div>
+          <h1 className="project-description">
+            Rasa Tak Terbuang is an application for my school project in high
+            school, the application is focused on selling leftover products that
+            can still be consumed with lower price {"(only prototype)"}
+          </h1>
+          <div className="grid grid-cols-1 md:grid-cols-3 text-lg gap-4">
+            <a
+              href="https://github.com/mvfflin/web-rasa-tak-terbuang"
+              target="_blank"
+              className="btn-github"
+            >
+              Web Github
+            </a>
+            <a
+              href="https://github.com/mvfflin/rasa-tak-terbuang-app"
+              target="_blank"
+              className="btn-github"
+            >
+              App Github
+            </a>
+            <a
+              href="https://rasatakterbuang.mvffin.my.id"
+              target="_blank"
+              className="btn-preview"
+            >
+              Visit Website
             </a>
           </div>
         </div>

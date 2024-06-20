@@ -23,7 +23,7 @@ export default function Home() {
           <ContactSection />
         </div>
         <footer className="bottom-0 fixed font-bold p-5 dark:text-white">
-          Copyright Mvfflin &copy; 2023
+          Copyright Mvfflin &copy; 2024
         </footer>
       </main>
     </>
