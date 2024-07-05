@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <main className={`maxw-screen transition-all`}>
-        <div className="dark:bg-zinc-900 bg-white px-5 dark:text-white transition-all">
+        <div className="dark:bg-zinc-900 bg-white px-5 text-zinc-900 dark:text-neutral-100 transition-all">
           <ThemeSwitcher />
           <HomeSection />
           <AboutSection />
@@ -22,7 +22,7 @@ export default function Home() {
           <ProjectSection />
           <ContactSection />
         </div>
-        <footer className="bottom-0 fixed font-bold p-5 dark:text-white">
+        <footer className="bottom-0 fixed font-bold p-5 dark:text-white font-ubuntu_sans">
           Copyright Mvfflin &copy; 2024
         </footer>
       </main>

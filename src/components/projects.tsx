@@ -1,7 +1,9 @@
 export const ProjectSection = () => {
   return (
-    <section id="projects" className="text-center pb-48">
-      <h1 className="title">Projects</h1>
+    <section id="projects" className="text-center py-48">
+      <h1 className="title font-ubuntu_sans">
+        <span className="font-logo">v</span> Projects
+      </h1>
       <hr className="line"></hr>
       <div className="grid grid-cols-1 xl:grid-cols-3 grid-rows-1 gap-6">
         <div className="project-item">

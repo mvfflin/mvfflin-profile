@@ -2,6 +2,98 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection {
+  @apply bg-transparent text-purple-500;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TypeDry";
+  src: url("../assets/fonts/jmh_typewriter_dry/JMH\ Typewriter\ dry.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TypoSlab";
+  src: url("../assets/fonts/typoslab_irregular/TypoSlab\ Irregular\ Demo.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HeyComic";
+  src: url("../assets/fonts/hey_comic/Hey\ Comic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu_Sans";
+  src: url("../assets/fonts/Ubuntu_Sans_Mono/UbuntuSansMono-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../assets/fonts/helvetica-255/Helvetica.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Logos";
+  src: url("../assets/fonts/social_media_circled/Social\ Media\ Circled.ttf")
+    format("truetype");
+  font-weight: normal;
+}
+
+.ga1 {
+  animation: opacity-to1 0.5s;
+}
+
+.ga2 {
+  animation: opacity-to1 1s;
+}
+
+.ga3 {
+  animation: opacity-to1 1.5s;
+}
+
+#home {
+  animation: slide-down 1s;
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes opacity-to1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
 .btn-github {
   @apply p-1 px-4 text-base md:text-lg bg-neutral-900 cursor-pointer rounded-sm font-medium hover:scale-105 transition-all text-white active:ring-4 active:ring-blue-500 focus:ring-4 focus:ring-blue-500;
 }
@@ -11,11 +103,11 @@
 }
 
 .project-stacks {
-  @apply text-left text-base flex justify-start md:text-xl gap-4 text-neutral-400 mb-1;
+  @apply text-left text-base flex justify-start md:text-xl gap-4 text-neutral-400 mb-1 font-helvetica;
 }
 
 .project-title {
-  @apply text-xl md:text-3xl text-left font-semibold text-white;
+  @apply text-xl md:text-3xl text-left font-semibold text-white font-ubuntu_sans;
 }
 
 .title {
@@ -31,7 +123,7 @@
 }
 
 .project-description {
-  @apply text-sm text-neutral-500 text-left mb-4;
+  @apply text-sm text-neutral-500 text-left mb-4 font-poppins;
 }
 
 :root {

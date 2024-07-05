@@ -7,7 +7,18 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    fontFamily: {
+      ubuntu_sans: ["Ubuntu_Sans"],
+      helvetica: ["Helvetica"],
+      typedry: ["TypeDry", "serif"],
+      serif: ["serif"],
+      poppins: ["Poppins"],
+      typoslab: ["TypoSlab"],
+      heycomic: ["HeyComic"],
+      logo: ["Logos"],
+    },
+  },
   plugins: [],
 };
 export default config;
