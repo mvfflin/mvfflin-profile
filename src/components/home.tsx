@@ -12,7 +12,7 @@ export const HomeSection = () => {
         Mvfflin
       </a>
       <h1 className="text-2xl font-poppins">Welcome to my portfolio!</h1>
-      <div className="grid grid-cols-3 w-max mx-auto gap-10 my-5 font-ubuntu_sans">
+      <div className="grid grid-rows-1 lg:grid-cols-3 w-max mx-auto gap-5 lg:gap-10 mb-10 my-5 font-ubuntu_sans">
         <h1 className="p-2 px-10 rounded-md shadow-md bg-slate-200 dark:bg-[#212933] ga1">
           Intermediate Fullstack
         </h1>
