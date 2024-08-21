@@ -43,7 +43,7 @@ export const StacksSection = () => {
             className="w-[100px] h-[100px] object-cover"
           />
         </a>
-        <a href="https://nextjs.org" target="_blank" className="mx-auto lg:m-0">
+        {/* <a href="https://nextjs.org" target="_blank" className="mx-auto lg:m-0">
           <img
             id="nextjs"
             src="https://media.discordapp.net/attachments/866552863264997376/1258774294578855936/java.png?ex=6689446a&is=6687f2ea&hm=b22e6ef90bd287f9d437d2586587f8e9afc7be7821f80702b43b5441d5b9852b&=&format=webp&quality=lossless"
@@ -58,7 +58,7 @@ export const StacksSection = () => {
             alt="NextJS logo"
             className="w-[100px] h-[100px] object-cover"
           />
-        </a>
+        </a> */}
       </div>
       <h1 className="text-xl dark:text-neutral-400 mt-5 font-helvetica">
         I&apos;ll learn more stacks soon

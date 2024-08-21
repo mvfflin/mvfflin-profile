@@ -49,7 +49,7 @@ export const ProjectSection = () => {
           <img src="./confess.png" className="aspect-auto mx-auto mb-5"></img>
           <h1 className="project-title">Menfess Website</h1>
           <div className="project-stacks">
-            <h1>EJS (Embedded JS)</h1>
+            <h1>EJS</h1>
             <h1>ExpressJS</h1>
             <h1>MongoDB</h1>
           </div>
@@ -130,6 +130,33 @@ export const ProjectSection = () => {
             </a>
             <a
               href="https://rasatakterbuang.mvffin.my.id"
+              target="_blank"
+              className="btn-preview"
+            >
+              Visit Website
+            </a>
+          </div>
+        </div>
+        <div className="project-item">
+          <img src="./ict5.png" className="aspect-auto mx-auto mb-5"></img>
+          <h1 className="project-title">Website ICT SMAN 5 Kota Bekasi</h1>
+          <div className="project-stacks">
+            <h1>NextJS</h1>
+          </div>
+          <h1 className="project-description">
+            ICT 5 is one of the extracurricular in SMAN 5 Kota Bekasi, i made
+            this website to show new students software division in ICT extra.
+          </h1>
+          <div className="grid grid-cols-1 text-lg gap-4">
+            <a
+              href="https://github.com/mvfflin/ict-web"
+              target="_blank"
+              className="btn-github"
+            >
+              Github
+            </a>
+            <a
+              href="https://ict5.mvffin.my.id"
               target="_blank"
               className="btn-preview"
             >

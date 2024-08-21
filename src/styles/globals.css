@@ -95,11 +95,11 @@
 }
 
 .btn-github {
-  @apply p-1 px-4 text-base md:text-lg bg-neutral-900 cursor-pointer rounded-sm font-medium hover:scale-105 transition-all text-white active:ring-4 active:ring-blue-500 focus:ring-4 focus:ring-blue-500;
+  @apply my-auto p-1 px-4 text-base md:text-lg bg-neutral-900 cursor-pointer rounded-sm font-medium hover:scale-105 transition-all text-white active:ring-4 active:ring-blue-500 focus:ring-4 focus:ring-blue-500;
 }
 
 .btn-preview {
-  @apply p-1 px-4 text-base md:text-lg bg-blue-700 cursor-pointer rounded-sm font-medium hover:scale-105 transition-all text-white active:ring-4 active:ring-blue-500 focus:ring-4 focus:ring-blue-500;
+  @apply my-auto p-1 px-4 text-base md:text-lg bg-blue-700 cursor-pointer rounded-sm font-medium hover:scale-105 transition-all text-white active:ring-4 active:ring-blue-500 focus:ring-4 focus:ring-blue-500;
 }
 
 .project-stacks {
