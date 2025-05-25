@@ -95,7 +95,7 @@
 }
 
 .btn-github {
-  @apply p-1 px-4 text-base md:text-lg bg-neutral-900 cursor-pointer rounded-sm font-medium hover:scale-105 transition-all text-white active:ring-4 active:ring-blue-500 focus:ring-4 focus:ring-blue-500;
+  @apply p-1 px-4 m-auto text-base md:text-lg bg-neutral-900 cursor-pointer rounded-sm font-medium hover:scale-105 transition-all text-white active:ring-4 active:ring-blue-500 focus:ring-4 focus:ring-blue-500;
 }
 
 .btn-preview {
@@ -138,6 +138,10 @@ hr {
 
 .project-item {
   @apply bg-zinc-950 dark:bg-opacity-40 p-5;
+}
+
+.stack-item {
+  @apply dark:bg-zinc-200 px-5 py-2 dark:text-black rounded-md bg-zinc-900 text-white dark:hover:bg-zinc-300 hover:bg-zinc-800 cursor-default;
 }
 
 body {

@@ -13,7 +13,7 @@ export const ContactSection = () => {
       <h1 className="text-2xl font-poppins">
         IG : @mvfflinn_ | Discord : mvfflin | Email : mynameisfatihul@gmail.com
       </h1>
-      <div className="grid grid-cols-1 lg:flex lg:justify-center mt-12 gap-10 text-5xl font-logo">
+      <div className="flex justify-center mt-12 gap-10 text-5xl font-logo">
         <a
           href="https://github.com/mvfflin"
           target="_blank"

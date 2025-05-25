@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <main className={`maxw-screen transition-all`}>
-        <div className="dark:bg-zinc-900 bg-white px-5 text-zinc-900 dark:text-neutral-100 transition-all">
+        <div className="dark:bg-zinc-900 bg-white px-5 xl:px-52 text-zinc-900 dark:text-neutral-100 transition-all">
           <ThemeSwitcher />
           <HomeSection />
           <AboutSection />
