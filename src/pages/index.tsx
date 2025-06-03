@@ -7,6 +7,7 @@ import { AboutSection } from "@/components/about";
 import { StacksSection } from "@/components/stacks";
 import { ProjectSection } from "@/components/projects";
 import { ContactSection } from "@/components/contact";
+import HistorySection from "@/components/history";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function Home() {
           <AboutSection />
           <StacksSection />
           <ProjectSection />
+          <HistorySection />
           <ContactSection />
         </div>
         <footer className="bottom-0 fixed font-bold p-5 dark:text-white font-ubuntu_sans">

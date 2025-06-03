@@ -141,7 +141,7 @@ hr {
 }
 
 .stack-item {
-  @apply dark:bg-zinc-200 px-5 py-2 dark:text-black rounded-md bg-zinc-900 text-white dark:hover:bg-zinc-300 hover:bg-zinc-800 cursor-default;
+  @apply dark:bg-zinc-200 px-5 py-2 font-poppins dark:text-black rounded-md bg-zinc-900 text-white dark:hover:bg-zinc-300 hover:bg-zinc-800 cursor-default;
 }
 
 body {

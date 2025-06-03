@@ -1,9 +1,7 @@
 export const ContactSection = () => {
   return (
-    <section id="contact" className="text-center pb-64">
-      <h1 className="title font-ubuntu_sans">
-        <span className="font-logo">m</span> Contact Me
-      </h1>
+    <section id="contact" className="text-center py-64">
+      <h1 className="title font-ubuntu_sans">Contact Me</h1>
       <hr className="line"></hr>
       <h1 className="text-xl my-2 font-poppins">
         You can contact me to ask me something, maybe you want me to make you a
@@ -37,15 +35,15 @@ export const ContactSection = () => {
         </a>
       </div>
       <h1 className="mt-12 text-xl font-typedry">
-        <span className="font-logo">W</span> My fav playlist (currently)
+        <span className="font-logo">W</span> My current fav album
       </h1>
       <iframe
         style={{ borderRadius: 15 }}
-        src="https://open.spotify.com/embed/playlist/0QPF2Ddzj935zvXy7DtAJG?utm_source=generator&theme=0"
+        className=" mx-auto mt-5"
+        src="https://open.spotify.com/embed/album/1k7UoaHhzVpVmeCUVmDvnH?utm_source=generator&theme=0"
         width="50%"
-        className="mx-auto mt-5"
         height="352"
-        allowFullScreen
+        frameBorder="0"
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
       ></iframe>

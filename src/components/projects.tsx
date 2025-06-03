@@ -2,9 +2,7 @@ export const ProjectSection = () => {
   return (
     <section id="projects" className="text-center py-40">
       <div className="m-auto">
-        <h1 className="title font-ubuntu_sans">
-          <span className="font-logo">v</span> Projects
-        </h1>
+        <h1 className="title font-ubuntu_sans">Projects</h1>
         <hr className="line"></hr>
         <h2 className="text-xl dark:text-neutral-400 text-zinc-600 my-5 font-helvetica">
           Projects that im involved in, or i made myself.
