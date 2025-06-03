@@ -7,7 +7,7 @@ export const ProjectSection = () => {
         <h2 className="text-xl dark:text-neutral-400 text-zinc-600 my-5 font-helvetica">
           Projects that im involved in, or i made myself. More projects soon...
         </h2>
-        <div className="grid grid-cols-1 xl:grid-cols-3 grid-rows-1 gap-6">
+        <div className="grid grid-cols-1 xl:grid-cols-2 grid-rows-1 gap-6">
           {/* <div className="project-item">
             <img
               src="./askme-website.png"
