@@ -4,7 +4,7 @@ export default function HistorySection() {
       <section id="history" className="pb-52 flex">
         <div className="m-auto">
           <h1 className="title font-ubuntu_sans text-center">History</h1>
-          <hr className="mt-5 w-3/5 lg:w-1/5 mx-auto" />
+          <hr className="line" />
           <ol className="items-center sm:flex mt-10">
             <li className="relative mb-6 sm:mb-0">
               <div className="flex items-center">

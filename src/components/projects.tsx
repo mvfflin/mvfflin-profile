@@ -5,7 +5,7 @@ export const ProjectSection = () => {
         <h1 className="title font-ubuntu_sans">Projects</h1>
         <hr className="line"></hr>
         <h2 className="text-xl dark:text-neutral-400 text-zinc-600 my-5 font-helvetica">
-          Projects that im involved in, or i made myself.
+          Projects that im involved in, or i made myself. More projects soon...
         </h2>
         <div className="grid grid-cols-1 xl:grid-cols-3 grid-rows-1 gap-6">
           {/* <div className="project-item">

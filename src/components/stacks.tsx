@@ -1,10 +1,10 @@
 export const StacksSection = () => {
   const stacks = [
+    "Studying",
     "React",
     "NextJS",
     "TypeScript",
     "MongoDB",
-    "Studying",
     "Java (Spigot/Paper)",
   ];
 
