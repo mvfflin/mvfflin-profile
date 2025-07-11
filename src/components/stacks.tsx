@@ -1,11 +1,14 @@
 export const StacksSection = () => {
   const stacks = [
     "Studying",
+    "Fast Learner",
     "React",
     "NextJS",
     "TypeScript",
     "MongoDB",
     "Java (Spigot/Paper)",
+    "Python",
+    "FastAPI"
   ];
 
   return (
