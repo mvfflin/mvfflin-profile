@@ -8,7 +8,8 @@ export const AboutSection = () => {
           I&apos;m a 16 years old person from Indonesia whose passion is to code
           useful things and do things that i like. I&apos;m currently being a
           student at SMAN 5 Kota Bekasi. I can make a fullstack website, develop
-          a minecraft server, a discord bot, and many more.
+          a minecraft server, a discord bot, and many more. Also i would like to
+          learn new things.
         </h1>
       </div>
     </section>

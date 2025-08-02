@@ -1,14 +1,14 @@
 export const StacksSection = () => {
   const stacks = [
     "Studying",
+    "Guitar",
     "Fast Learner",
     "React",
     "NextJS",
     "TypeScript",
     "MongoDB",
     "Java (Spigot/Paper)",
-    "Python",
-    "FastAPI"
+    "Python (FastAPI)",
   ];
 
   return (
@@ -26,7 +26,7 @@ export const StacksSection = () => {
           })}
         </div>
         <h1 className="text-xl dark:text-neutral-400 text-zinc-600 mt-5 font-helvetica">
-          I&apos;ll learn more stacks soon
+          I&apos;ll learn more soon for sure!
         </h1>
       </div>
     </section>

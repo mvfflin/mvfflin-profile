@@ -39,8 +39,8 @@ export const ContactSection = () => {
       </h1>
       <iframe
         style={{ borderRadius: 15 }}
-        className=" mx-auto mt-5"
-        src="https://open.spotify.com/embed/album/1k7UoaHhzVpVmeCUVmDvnH?utm_source=generator&theme=0"
+        className="mx-auto mt-5"
+        src="https://open.spotify.com/embed/album/2yNaksHgeMQM9Quse463b5?utm_source=generator&theme=0"
         width="50%"
         height="352"
         frameBorder="0"
