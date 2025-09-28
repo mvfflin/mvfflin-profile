@@ -103,7 +103,7 @@
 }
 
 .project-stacks {
-  @apply text-left text-base flex justify-start lg:text-xl gap-4 text-neutral-400 mb-1 font-helvetica;
+  @apply text-left text-base xl:flex justify-start xl:text-xl gap-4 text-neutral-400 mb-1 font-helvetica;
 }
 
 .project-title {

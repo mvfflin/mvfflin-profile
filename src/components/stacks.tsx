@@ -16,7 +16,7 @@ export const StacksSection = () => {
       <div className="m-auto">
         <h1 className="title font-ubuntu_sans">Skills</h1>
         <hr className="line"></hr>
-        <div className="grid grid-cols-1 lg:flex lg:text-center lg:justify-center gap-5">
+        <div className="grid grid-cols-1 xl:flex xl:text-center xl:justify-center gap-5">
           {stacks.map((stack, index) => {
             return (
               <div className="stack-item" key={index}>
