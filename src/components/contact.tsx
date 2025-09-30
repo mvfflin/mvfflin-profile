@@ -9,7 +9,7 @@ export const ContactSection = () => {
         discord okay? :D
       </h1>
       <h1 className="mt-5 lg:mt-0 text-lg lg:text-2xl font-poppins">
-        <span className="font-logo">Q</span> @mvfflinn_
+        <span className="font-logo">Q</span> @fthihsn_
         <br className="mt-5" />
         <span className="font-logo">Y</span> mvfflin
         <br className="my-5" />
