@@ -25,7 +25,7 @@ export const ProjectSection = () => {
               Muffin Forum is a forum website where you can discuss about
               anything with everyone. Still in development state, not done yet.
             </h1>
-            <div className="grid grid-cols-1 md:grid-cols-3 text-lg gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 text-lg gap-4">
               <a
                 href="https://github.com/mvfflin/muffin-forum"
                 className="btn-github"

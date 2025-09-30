@@ -19,7 +19,10 @@ export const StacksSection = () => {
         <div className="grid grid-cols-1 xl:flex xl:text-center xl:justify-center gap-5">
           {stacks.map((stack, index) => {
             return (
-              <div className="stack-item" key={index}>
+              <div
+                className="hover:scale-105 transition-all stack-item"
+                key={index}
+              >
                 <h1>{stack}</h1>
               </div>
             );

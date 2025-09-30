@@ -8,8 +8,12 @@ export const ContactSection = () => {
         website? I can do that, but i&apos;ll look for it first. And join my
         discord okay? :D
       </h1>
-      <h1 className="text-2xl font-poppins">
-        IG : @mvfflinn_ | Discord : mvfflin | Email : mynameisfatihul@gmail.com
+      <h1 className="mt-5 lg:mt-0 text-lg lg:text-2xl font-poppins">
+        <span className="font-logo">Q</span> @mvfflinn_
+        <br className="mt-5" />
+        <span className="font-logo">Y</span> mvfflin
+        <br className="my-5" />
+        <span className="font-logo">k</span> mynameisfatihul@gmail.com
       </h1>
       <div className="flex justify-center mt-12 gap-10 text-5xl font-logo">
         <a
@@ -35,13 +39,13 @@ export const ContactSection = () => {
         </a>
       </div>
       <h1 className="mt-12 text-xl font-typedry">
-        <span className="font-logo">W</span> My current fav album
+        <span className="font-logo">W</span> My fav playlist
       </h1>
       <iframe
-        style={{ borderRadius: 15 }}
+        style={{ borderRadius: 12 }}
         className="mx-auto mt-5"
-        src="https://open.spotify.com/embed/album/2yNaksHgeMQM9Quse463b5?utm_source=generator&theme=0"
-        width="50%"
+        src="https://open.spotify.com/embed/playlist/0sgnhxfA0KtafLr7xVUUps?utm_source=generator"
+        width="90%"
         height="352"
         frameBorder="0"
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
