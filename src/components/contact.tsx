@@ -58,8 +58,8 @@ export const ContactSection = () => {
         loading="lazy"
       ></iframe>
       <h1 className="mt-2 text-lg font-poppins italic">
-        P.S. If you're a strokers too let me know, lets cover a song together, i
-        will play the guitar.
+        P.S. If you&apos;re a strokers too let me know, lets cover a song
+        together, i will play the guitar.
       </h1>
     </section>
   );
