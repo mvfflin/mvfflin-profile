@@ -7,7 +7,7 @@ export const StacksSection = () => {
     "NextJS",
     "TypeScript",
     "MongoDB",
-    "Java (Spigot/Paper)",
+    "Java (Minecraft)",
     "Python (FastAPI)",
     "Lua (Roblox)",
   ];
@@ -17,7 +17,7 @@ export const StacksSection = () => {
       <div className="m-auto">
         <h1 className="title font-ubuntu_sans">Skills</h1>
         <hr className="line"></hr>
-        <div className="grid grid-cols-1 xl:flex xl:text-center xl:justify-center gap-5">
+        <div className="grid grid-cols-2 xl:grid-rows-2 xl:text-center xl:justify-center gap-5">
           {stacks.map((stack, index) => {
             return (
               <div
