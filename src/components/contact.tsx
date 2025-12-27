@@ -1,15 +1,14 @@
 export const ContactSection = () => {
   return (
-    <section id="contact" className="text-center py-64">
+    <section id="contact" className="text-center pb-64">
       <h1 className="title font-ubuntu_sans">Contact Me</h1>
       <hr className="line"></hr>
       <h1 className="text-xl my-2 font-poppins">
-        You can contact me to ask me something, maybe you want me to make you a
-        website? I can do that, but i&apos;ll look for it first. And join my
-        discord okay? :D
+        Contact me for commissions, i will try my best to reach your
+        expectations at building the best software you would ever imagine!
       </h1>
-      <h1 className="mt-5 lg:mt-0 text-lg lg:text-2xl font-poppins">
-        <span className="font-logo">Q</span> @fthihsn_
+      <h1 className="mt-5 lg:mt-0 text-lg lg:text-2xl font-ubuntu_sans">
+        <span className="font-logo">Q</span> @fthihsn_ // @mvfflinn_
         <br className="mt-5" />
         <span className="font-logo">Y</span> mvfflin
         <br className="my-5" />
@@ -37,9 +36,16 @@ export const ContactSection = () => {
         >
           Q
         </a>
+        <a
+          href="mailto:mynameisfatihul@gmail.com"
+          target="_blank"
+          className="mx-auto lg:m-0 ring-link hover:scale-110 transition-all"
+        >
+          k
+        </a>
       </div>
       <h1 className="mt-12 text-xl font-typedry">
-        <span className="font-logo">W</span> My fav playlist
+        <span className="font-logo">W</span> my fav playlist
       </h1>
       <iframe
         style={{ borderRadius: 12 }}
@@ -51,6 +57,10 @@ export const ContactSection = () => {
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
       ></iframe>
+      <h1 className="mt-2 text-lg font-poppins italic">
+        P.S. If you're a strokers too let me know, lets cover a song together, i
+        will play the guitar.
+      </h1>
     </section>
   );
 };

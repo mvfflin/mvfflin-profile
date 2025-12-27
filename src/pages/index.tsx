@@ -7,7 +7,7 @@ import { AboutSection } from "@/components/about";
 import { StacksSection } from "@/components/stacks";
 import { ProjectSection } from "@/components/projects";
 import { ContactSection } from "@/components/contact";
-import HistorySection from "@/components/history";
+import HistorySection from "@/components/experiences";
 
 const inter = Inter({ subsets: ["latin"] });
 
