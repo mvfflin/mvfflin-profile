@@ -10,6 +10,7 @@ export const ProjectSection = () => {
         <div className="grid grid-cols-1 xl:grid-cols-2 grid-rows-1 gap-6">
           <div className="project-item">
             <img
+              alt="Muffin Forum"
               src="./muffin-forum.png"
               className="aspect-auto mx-auto mb-5"
             ></img>
@@ -43,6 +44,7 @@ export const ProjectSection = () => {
           </div>
           <div className="project-item">
             <img
+              alt="Voracity MC Website"
               src="./voracity-web.png"
               className="aspect-auto mx-auto mb-5"
             ></img>
