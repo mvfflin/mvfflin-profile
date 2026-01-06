@@ -41,6 +41,36 @@ export const ProjectSection = () => {
               </a>
             </div>
           </div>
+          <div className="project-item">
+            <img
+              src="./voracity-web.png"
+              className="aspect-auto mx-auto mb-5"
+            ></img>
+            <h1 className="project-title">Voracity MC Website</h1>
+            <div className="project-stacks">
+              <h1>NextJS</h1>
+              <h1>TailwindCSS</h1>
+            </div>
+            <h1 className="project-description">
+              Voracity is a Minecraft Server from a friend of mine. I made the
+              website to help him promote his server.
+            </h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 text-lg gap-4">
+              <a
+                href="https://github.com/mvfflin/voracity-web"
+                className="btn-github"
+              >
+                Github
+              </a>
+              <a
+                href="https://voracity-web.vercel.app/"
+                target="_blank"
+                className="btn-preview"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
